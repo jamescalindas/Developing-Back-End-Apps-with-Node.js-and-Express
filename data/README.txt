@@ -1,0 +1,1 @@
+This folder holds JSON data for the demo (books.json, users.json).

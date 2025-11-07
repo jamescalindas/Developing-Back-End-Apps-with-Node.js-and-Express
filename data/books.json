@@ -1,0 +1,31 @@
+[
+  {
+    "isbn": "9780143127741",
+    "title": "The Martian",
+    "author": "Andy Weir",
+    "reviews": [
+      {
+        "user": "alice",
+        "rating": 5,
+        "comment": "Loved it!"
+      },
+      {
+        "user": "bob",
+        "rating": 4,
+        "comment": "Great sci-fi."
+      }
+    ]
+  },
+  {
+    "isbn": "9780553382563",
+    "title": "A Short History of Nearly Everything",
+    "author": "Bill Bryson",
+    "reviews": []
+  },
+  {
+    "isbn": "9780307277671",
+    "title": "The Kite Runner",
+    "author": "Khaled Hosseini",
+    "reviews": []
+  }
+]

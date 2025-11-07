@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Bookshop Demo</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Bookshop Demo — Frontend</h1>
+    <div id="auth">
+      <h2>Register / Login</h2>
+      <input id="username" placeholder="username">
+      <input id="password" placeholder="password" type="password">
+      <button id="registerBtn">Register</button>
+      <button id="loginBtn">Login</button>
+      <div id="authStatus"></div>
+    </div>
+
+    <hr>
+
+    <div id="general">
+      <h2>General User Tasks</h2>
+      <button id="getAll">Task 1: Get book list</button>
+      <div>
+        <input id="isbnInput" placeholder="ISBN">
+        <button id="getByIsbn">Task 2: Get by ISBN</button>
+      </div>
+      <div>
+        <input id="authorInput" placeholder="Author">
+        <button id="getByAuthor">Task 3: Get by Author</button>
+      </div>
+      <div>
+        <input id="titleInput" placeholder="Title">
+        <button id="getByTitle">Task 4: Get by Title</button>
+      </div>
+      <div>
+        <input id="isbnReview" placeholder="ISBN for reviews">
+        <button id="getReviews">Task 5: Get Reviews</button>
+      </div>
+    </div>
+
+    <hr>
+
+    <div id="registered">
+      <h2>Registered User Tasks</h2>
+      <div>
+        <input id="revIsbn" placeholder="ISBN">
+        <input id="revRating" placeholder="Rating (1-5)" type="number" min="1" max="5">
+        <input id="revComment" placeholder="Comment">
+        <button id="addReview">Task 8: Add/Modify Review</button>
+        <button id="delReview">Task 9: Delete My Review</button>
+      </div>
+    </div>
+
+    <hr>
+    <div id="output"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
